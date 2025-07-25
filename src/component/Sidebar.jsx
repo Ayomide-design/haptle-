@@ -4,12 +4,12 @@ import { MdAdminPanelSettings, MdPeople, MdStore, MdOutlineReport, MdContentPast
 
 function Sidebar() {
   return (
-    <div className="w-64 h-screen bg-gray-900 text-white flex flex-col justify-between p-4">
+    <div className="w-60 h-screen bg-[#2C496A]  text-white flex flex-col justify-between p-4">
       
       <div className="m-6">
         <img src="/logo.svg" alt="logo" className="h-10 mb-4" />
       </div>
-      <ul className="space-y-5">
+      <ul className="space-y-9">
         <li className="flex items-center gap cursor-pointer">
           <RxDashboard />
           <span>Dashboard</span>
@@ -36,11 +36,11 @@ function Sidebar() {
         </li>
       </ul>
 
-      <ul className="space-y-4 mt-10 border-t border-gray-700 pt-4">
-        <li className="flex items-center gap-2 hover:text-blue-400 cursor-pointer">
+      <ul className="space-y-4 mt-10 pt-4">
+        <li className="flex items-center gap-2  cursor-pointer">
           <span>Settings</span>
         </li>
-        <li className="flex items-center gap-2 hover:text-blue-400 cursor-pointer">
+        <li className="flex items-center cursor-pointer"> 
           <FiLogOut />
           <span>Logout</span>
         </li>
