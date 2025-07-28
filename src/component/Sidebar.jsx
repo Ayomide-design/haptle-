@@ -40,7 +40,7 @@ function Sidebar() {
         <li className="flex items-center gap-2  cursor-pointer">
           <span>Settings</span>
         </li>
-        <li className="flex items-center cursor-pointer"> 
+        <li className="flex items-center text-red-300 cursor-pointer"> 
           <FiLogOut />
           <span>Logout</span>
         </li>
