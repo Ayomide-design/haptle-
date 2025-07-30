@@ -1,7 +1,8 @@
 import React from "react";
 import { CgProfile } from "react-icons/cg";
 import { MdOutlineCall } from "react-icons/md";
-import { LuCalendarRange } from "react-icons/lu"; import { CiClock2 } from "react-icons/ci";
+import { LuCalendarRange } from "react-icons/lu"; 
+import { CiClock2 } from "react-icons/ci";
 import { FaArrowLeftLong } from "react-icons/fa6";
 import { MdOutlineMarkEmailRead } from "react-icons/md";
 import { GoPlus } from "react-icons/go";
@@ -100,10 +101,10 @@ function DashboardContent() {
                                     <div className="p-1 bg-blue-200 rounded-xl ml-25 ">
                                         Apr 5, 2025
                                     </div>
-                                    
+
                                     <div className="flex items-center  max-w-xs">
                                         {/* <p>dispute with vendor "annie bakes" over payment have been resolved</p> */}
-                
+
                                     </div>
 
                                 </div>
